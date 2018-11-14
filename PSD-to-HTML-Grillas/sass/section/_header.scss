@@ -13,6 +13,7 @@ header{
                     a{
                         color: black;
                         font-size: $menuSize;
+                        font-weight: bold;
                     }
                 }
             } 
@@ -20,7 +21,7 @@ header{
     }
 
     .sliderBackground{
-        max-width: 720px;
+        max-width: 800px;
         margin: auto;
         position: relative;
         height: 700px;
@@ -37,6 +38,15 @@ header{
 
                 div.first-block{
                     @include first-block;
+                    .principalText{
+                        font-size: $principalText;
+                    }
+                    .normalText{
+                        font-size: $normalText;
+                    }
+                    img{
+                        padding-top: 40px;
+                    }
                 }
                 div.second-block{
                     @include second-block;

@@ -1,6 +1,7 @@
 /*@import 'laptop';
 @import 'tablet';
 @import 'movil';*/
+@te;
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +31,11 @@ ul li a {
   clear: both;
 }
 
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
 /* Header Styles */
 header {
   background: #fcdb00;
@@ -45,10 +51,11 @@ header .head .menu ul li {
 }
 header .head .menu ul li a {
   color: black;
-  font-size: 22px;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 header .sliderBackground {
-  max-width: 720px;
+  max-width: 800px;
   margin: auto;
   position: relative;
   height: 700px;
@@ -67,9 +74,18 @@ header .sliderBackground .sliderContenedor .header-content {
 }
 header .sliderBackground .sliderContenedor .header-content div.first-block {
   display: inline-block;
-  width: 46%;
+  width: 50%;
   float: left;
-  padding-right: 10%;
+  padding-right: 6%;
+}
+header .sliderBackground .sliderContenedor .header-content div.first-block .principalText {
+  font-size: 1.25em;
+}
+header .sliderBackground .sliderContenedor .header-content div.first-block .normalText {
+  font-size: 1em;
+}
+header .sliderBackground .sliderContenedor .header-content div.first-block img {
+  padding-top: 40px;
 }
 header .sliderBackground .sliderContenedor .header-content div.second-block {
   display: inline-block;
@@ -92,6 +108,22 @@ header .sliderBackground .sliderContenedor .header-content .slide:last-child {
 }
 header .tablet .container {
   display: none;
+}
+
+.content {
+  padding: 100px 170;
+}
+.content .principalText {
+  font-size: 1.25em;
+  text-align: center;
+  padding-bottom: 94px;
+}
+.content .tablet {
+  display: none;
+}
+
+footer {
+  padding: 100px 170;
 }
 
 /*# sourceMappingURL=style.css.map */

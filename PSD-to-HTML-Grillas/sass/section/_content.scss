@@ -1,0 +1,14 @@
+//Content Slyles
+
+.content{
+    padding: $top $button;
+
+    .principalText{
+        @include principalText;
+    }
+
+
+    .tablet{
+        display: none;
+    }
+}

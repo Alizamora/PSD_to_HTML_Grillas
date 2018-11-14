@@ -1,10 +1,26 @@
 @mixin first-block {
     display: inline-block;
-    width: 46%;
+    width: 50%;
     float: left;
-    padding-right: 10%;
+    padding-right: 6%;
 }
 
 @mixin second-block {
     display: inline-block;
+}
+
+@mixin titulos {
+    font-size: $titulos;
+    text-align: center;
+}
+
+@mixin principalText {
+    font-size: $principalText;
+    text-align: center;
+    padding-bottom: $betweenTitleAndPrincipalText;
+}
+
+@mixin normalText {
+    font-size: $normalText;
+    text-align: center;
 }

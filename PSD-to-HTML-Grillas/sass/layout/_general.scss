@@ -26,3 +26,8 @@ ul{
     display: block;
     clear: both;
 }
+
+h2{
+    @include titulos;
+}
+
