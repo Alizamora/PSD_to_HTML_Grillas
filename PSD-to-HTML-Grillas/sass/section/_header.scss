@@ -1,0 +1,66 @@
+/* Header Styles */
+header{
+    background: #fcdb00;
+
+    .head{
+        padding-top: 52px;
+
+        .menu{
+            float: right;
+            ul{
+                li{
+                    display: inline-block;
+                    a{
+                        color: black;
+                        font-size: $menuSize;
+                    }
+                }
+            } 
+        }
+    }
+
+    .sliderBackground{
+        position: relative;
+        height: 700px;
+        width: 100%;
+        .sliderContenedor{
+            position: absolute;
+            margin: 0 auto;
+            width: 60%;
+
+            .header-content{
+                position: relative;
+                padding-top: 70px;
+                padding-bottom: 100px;
+
+                div.first-block{
+                    @include first-block;
+                }
+                div.second-block{
+                    @include second-block;
+                }  
+        
+                .slide{
+                    position: absolute;
+        
+                    &:first-child{
+                        left: 0;
+                    }
+                    &:nth-child(2){
+                        left: 100vw;
+                    }
+                    &:last-child{
+                        left: 200vw;
+                    }
+                }
+            } 
+        }
+    }
+    
+    .tablet{
+        .container{
+            display: none;
+        } 
+    }
+}
+

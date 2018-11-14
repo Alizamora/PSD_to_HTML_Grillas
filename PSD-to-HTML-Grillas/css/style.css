@@ -1,0 +1,90 @@
+/*@import 'laptop';
+@import 'tablet';
+@import 'movil';*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+  padding: 0 1%;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Header Styles */
+header {
+  background: #fcdb00;
+}
+header .head {
+  padding-top: 52px;
+}
+header .head .menu {
+  float: right;
+}
+header .head .menu ul li {
+  display: inline-block;
+}
+header .head .menu ul li a {
+  color: black;
+  font-size: 22px;
+}
+header .sliderBackground {
+  position: relative;
+  margin: 0 auto;
+  height: 700px;
+  width: 100%;
+}
+header .sliderBackground .sliderContenedor {
+  position: absolute;
+  margin: 0 auto;
+  width: 60%;
+}
+header .sliderBackground .sliderContenedor .header-content {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+header .sliderBackground .sliderContenedor .header-content div.first-block {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding-right: 10%;
+}
+header .sliderBackground .sliderContenedor .header-content div.second-block {
+  display: inline-block;
+}
+header .sliderBackground .sliderContenedor .header-content .slide {
+  position: absolute;
+}
+header .sliderBackground .sliderContenedor .header-content .slide:first-child {
+  left: 0;
+}
+header .sliderBackground .sliderContenedor .header-content .slide:nth-child(2) {
+  left: 100vw;
+}
+header .sliderBackground .sliderContenedor .header-content .slide:last-child {
+  left: 200vw;
+}
+header .tablet .container {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

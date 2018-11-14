@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+    padding: 0 1%;
+}
+
+ul{
+    padding: 0;
+    li{
+        list-style: none;
+        padding-right: 40px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

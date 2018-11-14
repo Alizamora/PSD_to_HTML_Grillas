@@ -1,0 +1,10 @@
+@mixin first-block {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding-right: 10%;
+}
+
+@mixin second-block {
+    display: inline-block;
+}
