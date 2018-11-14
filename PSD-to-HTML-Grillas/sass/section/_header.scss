@@ -20,14 +20,16 @@ header{
     }
 
     .sliderBackground{
+        max-width: 720px;
+        margin: auto;
         position: relative;
         height: 700px;
         width: 100%;
         .sliderContenedor{
+            transition: 2s;
             position: absolute;
             margin: 0 auto;
-            width: 60%;
-
+            width: 100%;
             .header-content{
                 position: relative;
                 padding-top: 70px;
@@ -42,7 +44,10 @@ header{
         
                 .slide{
                     position: absolute;
-        
+                    width: 720px;
+                    .block{
+                        float: left;
+                    }
                     &:first-child{
                         left: 0;
                     }
