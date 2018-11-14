@@ -23,4 +23,11 @@
 @mixin normalText {
     font-size: $normalText;
     text-align: center;
+    
+}
+
+@mixin box {
+    display: inline-block;
+    width: 220px;
+    padding-right: 5px;
 }

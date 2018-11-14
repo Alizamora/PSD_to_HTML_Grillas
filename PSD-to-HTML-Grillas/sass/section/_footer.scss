@@ -4,4 +4,8 @@ footer{
     padding: $top $button;
     //background-color: #010101;
 
+    h2{
+        @include titulos;
+    }
+
 }

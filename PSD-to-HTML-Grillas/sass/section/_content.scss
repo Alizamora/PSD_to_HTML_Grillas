@@ -3,8 +3,33 @@
 .content{
     padding: $top $button;
 
+    h2{
+        @include titulos;
+    }
+
     .principalText{
         @include principalText;
+        
+    }
+
+    .firstGroup{
+        .block{
+            @include box;
+            .left{
+                width: 60px;
+            }
+            
+            .right{
+                float: right;
+            }
+        }
+    }
+
+    .secondGroup{
+        .block{
+            @include box;
+            display: inline-block;
+        }
     }
 
 

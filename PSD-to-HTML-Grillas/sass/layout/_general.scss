@@ -6,7 +6,7 @@ body{
 }
 .container{
     margin: 0 auto;
-    width: 60%;
+    width: 960px;
     padding: 0 1%;
 }
 
@@ -27,7 +27,4 @@ ul{
     clear: both;
 }
 
-h2{
-    @include titulos;
-}
 

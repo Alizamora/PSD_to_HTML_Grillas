@@ -38,6 +38,9 @@ header{
 
                 div.first-block{
                     @include first-block;
+                    h2{
+                        font-size: $titulos;
+                    }
                     .principalText{
                         font-size: $principalText;
                     }
@@ -54,7 +57,7 @@ header{
         
                 .slide{
                     position: absolute;
-                    width: 720px;
+                    width: 960px;
                     .block{
                         float: left;
                     }
