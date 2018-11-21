@@ -9,7 +9,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   padding: 0 1%;
 }
 
@@ -118,23 +118,25 @@ header .tablet .container {
   font-size: 1.25em;
   text-align: center;
   padding-bottom: 94px;
+  padding-bottom: 0;
 }
-.content .firstGroup .block {
+.content .block {
+  width: 302px;
   display: inline-block;
-  width: 220px;
   padding-right: 5px;
 }
-.content .firstGroup .block .left {
-  width: 60px;
+.content .block img {
+  padding-bottom: 68px;
+  padding-right: 20px;
 }
-.content .firstGroup .block .right {
-  float: right;
+.content .block .right {
+  display: inline-block;
+  width: 219px;
+  height: 111px;
+  padding-top: 90px;
 }
-.content .secondGroup .block {
-  display: inline-block;
-  width: 220px;
-  padding-right: 5px;
-  display: inline-block;
+.content .block::nth-child(3) {
+  padding-bottom: 90px;
 }
 .content .tablet {
   display: none;

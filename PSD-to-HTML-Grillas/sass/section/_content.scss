@@ -9,26 +9,24 @@
 
     .principalText{
         @include principalText;
+        padding-bottom: 0;
         
     }
 
-    .firstGroup{
-        .block{
-            @include box;
-            .left{
-                width: 60px;
-            }
-            
-            .right{
-                float: right;
-            }
+    .block{
+        width: 302px;
+        display: inline-block;
+        padding-right: 5px;
+        img{
+            padding-bottom: 68px;
+            padding-right: 20px;
         }
-    }
-
-    .secondGroup{
-        .block{
+        .right{
             @include box;
-            display: inline-block;
+        }
+        
+        &::nth-child(3){
+            padding-bottom: 90px;
         }
     }
 
