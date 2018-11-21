@@ -1,11 +1,91 @@
-//Footer Styles
+    //Footer Styles
 
-footer{
-    padding: $top $button;
-    //background-color: #010101;
+    footer{
+        padding: $top $button;
+        background-color: #010101;
 
-    h2{
-        @include titulos;
+        h2{
+            @include titulos;
+            color: $yellow;
+        }
+        p{
+            color: #898989;
+        }
+
+        .principalText{
+            @include principalText;
+        }
+
+
+        input{
+            &:placeholder-shown{
+                padding-left: 25px;
+                size: $normalText;
+                color: #898989;
+            }
+
+            &::placeholder{
+                padding-left: 25px;
+            }
+        }
+
+
+
+        #barra{
+            width: 581px;
+            height: 51px;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding-right: 30px;
+
+        }
+        
+        
+        
+        #button{
+            width: 126px;
+            height: 50px;
+            background-color: $yellow;
+            border: 2px solid $yellow;
+            border-radius: 5px;
+            font-size: $normalText;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        //preguntarle al profe
+        .social{
+            background-image: url(../../img/Social.png);
+        }
+
+
     }
 
-}
+    .footer-end{
+        padding: $top 0 $button 0;
+        
+        .list-1{
+            width: 220px;
+            padding-right: 60px;
+        }
+
+        .list{
+            width: 146px;
+            display: inline-block;
+            ul{
+                display: inline-block;
+                li{
+                    color: white;
+                    padding: 0;
+                    a{
+                        color: white;
+                    }
+                } 
+            }
+
+            .izq{
+                float: left;
+            }
+        }
+        
+    }

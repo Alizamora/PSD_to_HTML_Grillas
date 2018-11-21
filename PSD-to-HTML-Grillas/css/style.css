@@ -144,10 +144,73 @@ header .tablet .container {
 
 footer {
   padding: 100px 170;
+  background-color: #010101;
 }
 footer h2 {
   font-size: 2em;
   text-align: center;
+  color: #fcdb00;
+}
+footer p {
+  color: #898989;
+}
+footer .principalText {
+  font-size: 1.25em;
+  text-align: center;
+  padding-bottom: 94px;
+}
+footer input:placeholder-shown {
+  padding-left: 25px;
+  size: 1em;
+  color: #898989;
+}
+footer input::placeholder {
+  padding-left: 25px;
+}
+footer #barra {
+  width: 581px;
+  height: 51px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-right: 30px;
+}
+footer #button {
+  width: 126px;
+  height: 50px;
+  background-color: #fcdb00;
+  border: 2px solid #fcdb00;
+  border-radius: 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer .social {
+  background-image: url(../../img/Social.png);
+}
+
+.footer-end {
+  padding: 100px 0 170 0;
+}
+.footer-end .list-1 {
+  width: 220px;
+  padding-right: 60px;
+}
+.footer-end .list {
+  width: 146px;
+  display: inline-block;
+}
+.footer-end .list ul {
+  display: inline-block;
+}
+.footer-end .list ul li {
+  color: white;
+  padding: 0;
+}
+.footer-end .list ul li a {
+  color: white;
+}
+.footer-end .list .izq {
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */
