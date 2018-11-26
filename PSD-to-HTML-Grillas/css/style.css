@@ -167,6 +167,9 @@ footer input:placeholder-shown {
 footer input::placeholder {
   padding-left: 25px;
 }
+footer .input {
+  max-width: 712px;
+}
 footer #barra {
   width: 581px;
   height: 51px;
