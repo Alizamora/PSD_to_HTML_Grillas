@@ -1,6 +1,14 @@
-/*@import 'laptop';
-@import 'tablet';
-@import 'movil';*/
+@media (max-width: 1400px) {
+  .header .block {
+    display: none;
+  }
+  .header .first-block {
+    display: none;
+  }
+  .header .second-block {
+    display: none;
+  }
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -187,8 +195,28 @@ footer #button {
   text-transform: uppercase;
   font-weight: bold;
 }
-footer .social {
+footer .sprite {
+  width: 284px;
+}
+footer .sprite .social {
+  display: inline-block;
   background-image: url(../../img/Social.png);
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 25px;
+  margin-top: 94px;
+  padding-bottom: 100px;
+}
+footer .sprite #dos {
+  background-position-x: -70px;
+}
+footer .sprite #tres {
+  background-position-x: -137px;
+}
+footer .sprite #cuatro {
+  background-position-x: -205px;
 }
 
 .footer-end {
